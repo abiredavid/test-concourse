@@ -48,6 +48,7 @@ jobs:
           cd maven-examples/maven-unit-test/
           mvn clean install
           echo "this is taking forever"
+          echo "This is still not printing"
   on_success:
     do:
     - put: maven-examples
